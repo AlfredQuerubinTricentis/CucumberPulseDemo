@@ -46,12 +46,12 @@ const main = async () => {
     
     // Build command line for test execution.  Place any scripts surrounding build/test procedures here.
     // Comment out this section if build/test execution takes place elsewhere.
-    //let command = '';
+    let command = 'mvn test';
     
-    //console.log(`=== executing command ===`);
-   // console.log(command);
-    //execSync(command, {stdio: "inherit"});
-    //console.log(`=== command completed ===`);
+    console.log(`=== executing command ===`);
+    console.log(command);
+    execSync(command, {stdio: "inherit"});
+    console.log(`=== command completed ===`);
     // Build section end.
 
     
