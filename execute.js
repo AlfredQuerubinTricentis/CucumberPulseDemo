@@ -56,7 +56,7 @@ const main = async () => {
 
     
     // Edit this to reflect your results file, be certain to escape the slashes as seen below.
-    let resultsPath = '../cucumber-report.json';
+    let resultsPath = 'cucumber-report.json';
     
     try {
         result = fs.readFileSync(resultsPath, 'utf8');
