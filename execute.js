@@ -37,9 +37,9 @@ const main = async () => {
     const path = await req('path');
     const request = await req('request');
     
-    const pulseUri = 'https://pulse-7.qtestnet.com/webhook/07d947f9-728a-4246-bc40-95edb6ceeb4f'; // Pulse parser webhook endpoint
+    const pulseUri = 'https://pulse-7.qtestnet.com/webhook/1aac2b57-92f5-41eb-aa28-5b9f87be67be'; // Pulse parser webhook endpoint
     const projectId = '129672';               // target qTest Project ID
-    const cycleId = '4866679';                 // target qTest Test Cycle ID
+    const cycleId = '4869186';                 // target qTest Test Cycle ID
     
     var result = '';
     
@@ -56,7 +56,7 @@ const main = async () => {
 
     
     // Edit this to reflect your results file, be certain to escape the slashes as seen below.
-    let resultsPath = '/Users/alfredquerubin/Documents/qTestAutomation/PostmanSample/samplejsonresults.json';
+    let resultsPath = '../cucumber-report.json';
     
     try {
         result = fs.readFileSync(resultsPath, 'utf8');
