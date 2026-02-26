@@ -11,7 +11,7 @@ steps:
 
     logs=$(base64 -w 0 cucumber-report.json)
 
-    echo -n '{ "testcycle" : 3676826, "result" : "' > payload.json
+    echo -n '{ "testcycle" : 3903090, "result" : "' > payload.json
     echo -n "$logs" >> payload.json
     echo -n '", "projectId" : 127692}' >> payload.json
 
