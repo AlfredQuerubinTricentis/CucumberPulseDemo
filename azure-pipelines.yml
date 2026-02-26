@@ -16,7 +16,7 @@ steps:
     echo -n '", "projectId" : 127692}' >> payload.json
 
     curl -X POST \
-      https://pulse-7.qtestnet.com/webhook/1af0de00-76b6-4dfa-8b6f-ae0f879117ba \
+      https://pulse-7.qtestnet.com/webhook/1aac2b57-92f5-41eb-aa28-5b9f87be67be \
       -H "cache-control: no-cache" \
       -H "content-type: application/json" \
       -d @payload.json
